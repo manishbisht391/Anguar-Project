@@ -1,0 +1,39 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.to-top {
+  background-color: #5fcf80;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.to-top i {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+  header {
+    font-size: 14px;
+    background-color: red;
+  }
+  .hero {
+    width: 100vw;
+    height: 80vh;
+  }
+}

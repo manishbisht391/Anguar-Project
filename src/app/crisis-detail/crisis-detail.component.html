@@ -1,0 +1,6 @@
+<h2>Crisis details</h2>
+<div *ngIf="crisis">
+    <h3>{{ editName }}</h3>    
+    <label for="crisis-name">Crisis name: </label>
+    <input type="text" id="crisis-name" [(ngModel)]="editName" placeholder="name"/>    
+</div>

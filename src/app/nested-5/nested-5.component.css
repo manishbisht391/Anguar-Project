@@ -1,0 +1,41 @@
+.order-1 {
+    order: 1 !important;
+  }
+
+.order-2{
+    order: 2 !important;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 992px) {
+    .order-lg-1 {
+      order: 1 !important;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .img-fluid {
+      width: 50%;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .img-fluid {
+      width: 50%;
+      padding-bottom: 10px;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+  }

@@ -1,0 +1,30 @@
+.active{
+    color: #5fcf80 !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-weight: 600;
+    padding-top: 10px;
+    color: #5fcf80;
+}
+
+ul li a:hover{
+    color: #5fcf80;
+}
+
+button a{
+    background-color: #5fcf80;
+    color: white;
+    padding: 5px 17px;
+    border-radius: 20px;
+}
+
+button a:hover{
+    background-color: #41a760;
+    outline: none;
+
+}

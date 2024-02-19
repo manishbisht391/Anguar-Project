@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+.breadcrumbs {
+    text-align: center;
+    background: #5fcf80;
+    padding: 30px 0;
+    color: #fff;
+  }
+  
+  
+  .breadcrumbs h2 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
+  .breadcrumbs p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
